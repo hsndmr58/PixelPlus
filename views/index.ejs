@@ -1,0 +1,51 @@
+<%- include('partials/_header')-%>
+    <div class="wrapper">
+        <div class="creatandmembers">
+            <div class="member">
+                <span class="memberstext">All Members</span> 
+                <span></span>
+            </div>
+            <div class="create">
+                <a href="/created" class="createbtn">Create New Member</a>
+                
+            </div>
+        </div>
+        <div class="memberwrapper">
+            <% for (let i = 0 ; i < data.length;i++){ %>
+                <div class="memberCartwrapper">
+                    <div class="memberCart">
+                        <div class="memberimg">
+                            <img src="<%=data[i].avatar%>" alt="">
+                        </div>
+                        <div class="membername">
+                            <span>
+                                <%=data[i].first_name%> <%=data[i].last_name%>
+                            </span>
+                        </div>
+                        <div class="memberemail">
+                            <span>
+                                <%=data[i].email%>
+                            </span>
+                        </div>
+                        <div class="memberreview">
+                            <a href="/member?userid=<%=data[i].id%>" class="memberbtn">Review</a>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+                
+        </div>
+    
+    </div>
+        <div class="pagesize">
+            <div class="pagesizevalue">
+                <ul>
+                    <li><</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>></li>
+                </ul>
+            </div>
+        </div>
+        <%- include('partials/_footer')-%>

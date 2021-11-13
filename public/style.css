@@ -1,0 +1,249 @@
+body{
+    background-color: #F9F9FB;
+    margin: 0%;
+}
+.wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+height: 113px;
+width: 100%;
+top:0%;
+background: linear-gradient(90deg, rgba(116,142,252,1) 0%, rgba(59,77,154,1) 50%);
+text-align: center;
+}
+.headertext{
+    font-size: 32px;
+    color:white;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 113px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.creatandmembers{
+    display: flex;
+    margin-top: 50px;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.create{
+    width: 50%;
+    float: right;
+}
+.member{
+    width: 50%;
+    float: left;
+}
+.createbtn{
+    width: 255px;
+    height: 53px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #8599A8;
+    float: right;
+    font-size: 18px;
+    color: #8599A8;
+    border-radius: 5px;
+    line-height: 53px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.createbtn:hover{
+    background-color: #748EFC;
+    color: white;
+}
+.memberstext{
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.memberwrapper{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.memberCartwrapper{
+    
+    background-color: white;
+    height: 400px;
+    margin: 10px;
+    display:inline-block;
+    width: 340px;
+    box-shadow: 0px 10px 25px 1px #00000008;
+}
+.memberCart{
+    width: 328px;
+    text-align: center;
+}
+.memberimg img{
+    height: 115px;
+    width: 115px;
+    border-radius: 75px;
+    margin-top: 41px;
+}
+.memberreview a{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #8599A8;
+    font-size: 18px;
+    color: #8599A8;
+    border-radius: 5px;
+    width: 177px;
+    height: 53px;
+    margin-top: 46px;
+    display: inline-block;
+    line-height: 53px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.memberreview a:hover{
+    background-color: #748EFC;
+    color: white;
+}
+.membername span{
+    color: #191B2C;
+    font-size: 22px;
+    font-weight:bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.membername{
+    margin-bottom: 14px;
+}
+.memberemail span{
+    color: #8A8B8D;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer{
+    background-color: #040404;
+    width: 100%;
+    height: 74px;
+    text-align: center;
+
+}
+.footer span{
+    opacity: 40%;
+    font-size: 18px;
+    color:white;
+    vertical-align: middle;
+    line-height: 74px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pagesize{
+
+    text-align: center;
+    margin-top: 81px;
+    margin-bottom: 81px;
+}
+.pagesizevalue{
+    margin-left: auto;
+    margin-right: auto;
+    width: 405px;
+    height: 55px;
+    display: inline-table;
+    vertical-align: middle;
+    line-height: 55px; 
+}
+.pagesizevalue ul{
+    display: flex;
+    list-style: none;
+}
+
+.pagesizevalue ul li{
+    color: #8A8B8D;
+    border: 1px solid #D6DCE3;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+}
+
+.pagesizevalue ul li:hover{
+    background-color: #748EFC;
+    color: #FFFFFF;
+}
+
+.memberCartwrapperDetail{
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 25px 1px #00000008;
+    max-width: 1110px;
+    height: auto;
+    text-align: center;
+    margin-bottom:100px ;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.createdwrapper{
+    text-align: center;
+}
+
+.mt-5{
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.createdform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createdform input[type="text"]{
+    width: 349px;
+    height: 53px;
+    margin-bottom: 24px;
+    border: 1px solid #8599A8;
+    font-size: 18px;
+    max-width: 250px;
+    color: #8599A8;
+    opacity: 40%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.backbtn{
+    background-color:#748EFC;
+    border: 1px solid #8599A8;
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 275px;
+    border-radius: 5px;
+    width: 350px;
+    height: 53px;
+    display: inline-block;
+    line-height: 53px;
+    text-decoration: none;
+    margin-bottom: 24px;
+
+}
+@media only screen and (max-width: 600px) {
+    .member {
+      width: 100%;
+      float: none;
+
+    }
+    .create{
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    .creatandmembers{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapper{
+        text-align: center;
+    }
+  }
