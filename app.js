@@ -54,7 +54,7 @@ app.post('/created',(req,res)=>{
 res.jsonp(JSON.parse(a.getBody()))
 
 })
-const port=3000;
+const port = process.env.PORT||5000;
 app.listen(port,()=>{
     console.log("Sunucu Çalıştı")
 })
